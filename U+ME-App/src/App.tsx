@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import Hamster from './icons/Hamster';
-import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter } from './images';
-import Info from './icons/Info';
-import Settings from './icons/Settings';
-import Mine from './icons/Mine';
-import Friends from './icons/Friends';
-import Coins from './icons/Coins';
+import React, { useEffect, useState } from 'react'
+import './App.css'
+import Coins from './icons/Coins'
+import Friends from './icons/Friends'
+import Hamster from './icons/Hamster'
+import Info from './icons/Info'
+import Mine from './icons/Mine'
+import Settings from './icons/Settings'
+import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter } from './images'
 
 const App: React.FC = () => {
   const levelNames = [
